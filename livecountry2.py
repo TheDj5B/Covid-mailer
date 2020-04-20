@@ -133,7 +133,7 @@ def jprint(obj):
     jprint2(response.json()) 
             
 if __name__ == '__main__':
- with open('config2.json') as file:
+ with open('config2git.json') as file:
   config = json.load(file)
 
   email_subject = config['email']['subject']
